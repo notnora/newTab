@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import './calendar.js';
 
-var API_KEY='AIzaSyAZpvfPo1fqUATdqe4mjCJRzb79IITYdno';
+var API_KEY=KEY_HERE;
 
 function NexEvent(){
     getNextEvent().then(function(data){
