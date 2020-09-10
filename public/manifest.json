@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "short_name": "React App",
+  "version": "0.1",
+  "name": "Personalized new tab page",
+  "description": "New tab opens with personalized messages and clock.",
+  "author": "Nora Pålsrud",
+  "chrome_url_overrides" : {
+      "newtab": "index.html"
+ }
+}
